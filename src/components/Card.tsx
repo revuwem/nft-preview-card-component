@@ -9,7 +9,7 @@ const Card: React.FC<ICardProps> = () => {
           href="#"
           className="opacity-0 hover:opacity-100 bg-cyan/[.6] w-full h-full absolute inset-0 grid place-items-center transition"
         >
-          <img src="/images/icon-view.svg" alt="View" />
+          <img src="images/icon-view.svg" alt="View" />
         </a>
       </div>
       <h3 className="text-xl font-semibold mb-3">
