@@ -9,12 +9,12 @@ const Card: React.FC<ICardProps> = () => {
         className="rounded-lg mb-5"
       />
       <h3 className="text-xl font-semibold mb-3">Equilibrium #3429</h3>
-      <p className="text-base font-light mb-3">
+      <p className="text-base font-light text-blue-400 mb-3">
         Our Equilibrium collection promotes balance and calm.
       </p>
       <div className="flex justify-between">
-        <p className="text-base uppercase">0.041 ETH</p>
-        <p className="text-base">3 days left</p>
+        <p className="text-base font-semibold uppercase text-cyan">0.041 ETH</p>
+        <p className="text-base text-blue-400">3 days left</p>
       </div>
       <hr className="border-blue-300 my-3" />
       <div className="flex items-center gap-4">
@@ -23,7 +23,17 @@ const Card: React.FC<ICardProps> = () => {
           alt="Image of author"
           className="max-w-[2rem] rounded-full border-white border-2"
         />
-        <p className="text-sm">Creation of Jules Wyvern</p>
+        <p className="text-sm text-blue-400">
+          Creation of{" "}
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferer"
+            className="text-white"
+          >
+            Jules Wyvern
+          </a>
+        </p>
       </div>
     </section>
   );
