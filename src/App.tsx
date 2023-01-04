@@ -2,7 +2,7 @@ import Card from "./components/Card";
 
 function App() {
   return (
-    <main>
+    <main className="min-h-screen p-5 bg-blue-100 grid place-items-center">
       <Card />
     </main>
   );
