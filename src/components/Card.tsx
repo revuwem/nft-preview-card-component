@@ -13,8 +13,16 @@ const Card: React.FC<ICardProps> = () => {
         Our Equilibrium collection promotes balance and calm.
       </p>
       <div className="flex justify-between">
-        <p className="text-base font-semibold uppercase text-cyan">0.041 ETH</p>
-        <p className="text-base text-blue-400">3 days left</p>
+        <div className="grid grid-flow-col place-items-center gap-1.5">
+          <img src="images/icon-ethereum.svg" alt="" />
+          <p className="text-base font-semibold uppercase text-cyan">
+            0.041 ETH
+          </p>
+        </div>
+        <div className="grid grid-flow-col place-items-center gap-1.5">
+          <img src="images/icon-clock.svg" alt="" />
+          <p className="text-base text-blue-400">3 days left</p>
+        </div>
       </div>
       <hr className="border-blue-300 my-3" />
       <div className="flex items-center gap-4">
