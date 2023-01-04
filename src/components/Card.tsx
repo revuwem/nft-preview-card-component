@@ -8,7 +8,16 @@ const Card: React.FC<ICardProps> = () => {
         alt="Image of equilibrium"
         className="rounded-lg mb-5"
       />
-      <h3 className="text-xl font-semibold mb-3">Equilibrium #3429</h3>
+      <h3 className="text-xl font-semibold mb-3">
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferer"
+          className="text-white hover:text-cyan transition"
+        >
+          Equilibrium #3429
+        </a>
+      </h3>
       <p className="text-base font-light text-blue-400 mb-3">
         Our Equilibrium collection promotes balance and calm.
       </p>
@@ -37,7 +46,7 @@ const Card: React.FC<ICardProps> = () => {
             href="#"
             target="_blank"
             rel="noopener noreferer"
-            className="text-white"
+            className="text-white hover:text-cyan transition"
           >
             Jules Wyvern
           </a>
