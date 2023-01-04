@@ -44,7 +44,7 @@ const Card: React.FC<ICardProps> = () => {
           alt="Image of author"
           className="max-w-[2rem] rounded-full border-white border-2"
         />
-        <p className="text-sm text-blue-400">
+        <p className="text-sm lg:text-base text-blue-400">
           Creation of{" "}
           <a
             href="#"
