@@ -3,11 +3,15 @@ interface ICardProps {}
 const Card: React.FC<ICardProps> = () => {
   return (
     <section className="p-5 bg-blue-200 rounded-xl">
-      <img
-        src="/images/image-equilibrium.jpg"
-        alt="Image of equilibrium"
-        className="rounded-lg mb-5"
-      />
+      <div className="relative overflow-hidden rounded-lg mb-4 h-2/5">
+        <img src="/images/image-equilibrium.jpg" alt="Image of equilibrium" />
+        <a
+          href="#"
+          className="opacity-0 hover:opacity-100 bg-cyan/[.6] w-full h-full absolute inset-0 grid place-items-center transition"
+        >
+          <img src="/images/icon-view.svg" alt="View" />
+        </a>
+      </div>
       <h3 className="text-xl font-semibold mb-3">
         <a
           href="#"
