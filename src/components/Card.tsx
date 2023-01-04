@@ -12,7 +12,7 @@ const Card: React.FC<ICardProps> = () => {
           <img src="images/icon-view.svg" alt="View" />
         </a>
       </div>
-      <h3 className="text-xl lg:text-2xl font-semibold mb-3">
+      <h3 className="text-base lg:text-lg font-semibold mb-3">
         <a
           href="#"
           target="_blank"
