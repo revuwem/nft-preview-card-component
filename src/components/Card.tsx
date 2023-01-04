@@ -4,7 +4,7 @@ const Card: React.FC<ICardProps> = () => {
   return (
     <section className="max-w-xs p-5 bg-blue-200 rounded-xl">
       <div className="relative overflow-hidden rounded-lg mb-4 h-2/5">
-        <img src="/images/image-equilibrium.jpg" alt="Image of equilibrium" />
+        <img src="images/image-equilibrium.jpg" alt="Image of equilibrium" />
         <a
           href="#"
           className="opacity-0 hover:opacity-100 bg-cyan/[.6] w-full h-full absolute inset-0 grid place-items-center transition"
@@ -40,7 +40,7 @@ const Card: React.FC<ICardProps> = () => {
       <hr className="border-blue-300 my-3" />
       <div className="flex items-center gap-4">
         <img
-          src="/images/image-avatar.png"
+          src="images/image-avatar.png"
           alt="Image of author"
           className="max-w-[2rem] rounded-full border-white border-2"
         />
