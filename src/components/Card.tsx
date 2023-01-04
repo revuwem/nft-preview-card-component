@@ -12,7 +12,7 @@ const Card: React.FC<ICardProps> = () => {
           <img src="images/icon-view.svg" alt="View" />
         </a>
       </div>
-      <h3 className="text-xl font-semibold mb-3">
+      <h3 className="text-xl lg:text-2xl font-semibold mb-3">
         <a
           href="#"
           target="_blank"
@@ -22,19 +22,19 @@ const Card: React.FC<ICardProps> = () => {
           Equilibrium #3429
         </a>
       </h3>
-      <p className="text-base font-light text-blue-400 mb-3">
+      <p className="text-base lg:text-lg font-light text-blue-400 mb-3">
         Our Equilibrium collection promotes balance and calm.
       </p>
       <div className="flex justify-between">
         <div className="grid grid-flow-col place-items-center gap-1.5">
           <img src="images/icon-ethereum.svg" alt="" />
-          <p className="text-base font-semibold uppercase text-cyan">
+          <p className="text-base lg:text-lg font-semibold uppercase text-cyan">
             0.041 ETH
           </p>
         </div>
         <div className="grid grid-flow-col place-items-center gap-1.5">
           <img src="images/icon-clock.svg" alt="" />
-          <p className="text-base text-blue-400">3 days left</p>
+          <p className="text-base lg:text-lg text-blue-400">3 days left</p>
         </div>
       </div>
       <hr className="border-blue-300 my-3" />
