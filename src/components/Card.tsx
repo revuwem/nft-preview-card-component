@@ -16,7 +16,7 @@ const Card: React.FC<ICardProps> = () => {
         <a
           href="#"
           target="_blank"
-          rel="noopener noreferer"
+          rel="noopener noreferrer"
           className="text-white hover:text-cyan transition"
         >
           Equilibrium #3429
@@ -49,7 +49,7 @@ const Card: React.FC<ICardProps> = () => {
           <a
             href="#"
             target="_blank"
-            rel="noopener noreferer"
+            rel="noopener noreferrer"
             className="text-white hover:text-cyan transition"
           >
             Jules Wyvern
