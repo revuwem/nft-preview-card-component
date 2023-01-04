@@ -2,7 +2,7 @@ interface ICardProps {}
 
 const Card: React.FC<ICardProps> = () => {
   return (
-    <section className="max-w-xs p-5 bg-blue-200 rounded-xl">
+    <section className="max-w-sm p-5 bg-blue-200 rounded-xl">
       <div className="relative overflow-hidden rounded-lg mb-4 h-2/5">
         <img src="images/image-equilibrium.jpg" alt="Image of equilibrium" />
         <a
